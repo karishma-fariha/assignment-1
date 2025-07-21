@@ -12,6 +12,9 @@
   font-weight: <weight>;
   font-style: normal;
 }
+.color{
+  color: #4E47FF;
+}
 
 nav{
     display: flex;
@@ -37,4 +40,18 @@ justify-content: space-between;
         border: none;
         font-size: 16px;
         font-weight: bold;
+}
+.hero-banner{
+  font-size: 65px;
+  font-weight: bold;
+  color: #252432;
+  text-align: center;
+  margin: 300px 270px 170px 270px;
+  
+}
+header{
+  background-image: url(../Assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5px;
 }
