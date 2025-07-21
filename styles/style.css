@@ -1,4 +1,3 @@
-
 .raleway-main-font {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -12,120 +11,136 @@
   font-weight: <weight>;
   font-style: normal;
 }
-.color{
+
+.color {
   color: #4E47FF;
 }
 
-nav{
-    display: flex;
-     align-items: center;
-    gap: 200px;
-justify-content: space-between;
-     margin-left: 150px;
-    margin-right: 150px;
-    padding-top: 50px;
+nav {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-top: 50px;
 
 }
+
 /* logo heading */
-.logo{
-    font-size: 34px;
-    font-weight: bold;
+.logo {
+  font-size: 34px;
+  font-weight: bold;
 }
+
 /* btn style */
-.btn{
-    background-color: #4E47FF;
-    color: #FFFFFF;
-        border-radius: 10px;
-        padding: 12px 36px 12px 36px;
-        border: none;
-        font-size: 16px;
-        font-weight: bold;
+.btn {
+  background-color: #4E47FF;
+  color: #FFFFFF;
+  border-radius: 10px;
+  padding: 12px 36px 12px 36px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
 }
-.hero-banner{
+
+.hero-banner {
   font-size: 65px;
   font-weight: bold;
   color: #252432;
   text-align: center;
   margin: 300px 270px 170px 270px;
-  
+
 }
-header{
+
+header {
   background-image: url(../Assets/Hero-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 5px;
 }
+
 /* action styles */
-.action{
+.action {
   display: flex;
   margin-top: 120px;
   justify-content: space-around;
 }
-#action-1{
-    font-size: 42px;
-    font-weight: bold;
+
+#action-1 {
+  font-size: 42px;
+  font-weight: bold;
 }
-#action-2{
-    font-size: 24px;
-    color: rgba(0, 0, 0, 0.471);
+
+#action-2 {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.471);
 }
-.action div img{
-    border-radius: 48px;
-    
-    
+
+.action div img {
+  border-radius: 48px;
+
+
 }
+
 /* user section */
-.productive-user{
-    text-align: center;
-    margin: 116px 240px 0px 240px;
-    background-color: #4d47ff1b;
-    padding: 50px 100px;
-    border-radius: 28px;
+.productive-user {
+  text-align: center;
+  margin: 116px 240px 0px 240px;
+  background-color: #4d47ff1b;
+  padding: 50px 100px;
+  border-radius: 28px;
 
 }
-.numbers{
-    display: flex;
-    gap: 158px;
-    justify-content: center;
+
+.numbers {
+  display: flex;
+  gap: 158px;
+  justify-content: center;
 }
-#user-1{
-    font-size: 38px;
-    font-weight: bold;
+
+#user-1 {
+  font-size: 38px;
+  font-weight: bold;
 
 }
+
 #usr-1 {
-    font-size: 80px;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: #4E47FF;
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #4E47FF;
 
 }
-#usr-2{
-   color: rgba(0, 0, 0, 0.536);
-    margin-top: 2px;
-    font-size: 20px;
-   
+
+#usr-2 {
+  color: rgba(0, 0, 0, 0.536);
+  margin-top: 2px;
+  font-size: 20px;
+
 
 }
+
 /* feedback section */
-.users-title{
-    text-align: center;
-    font-size: 42px;
-    font-weight: bold;
-    margin: 137px 150px 50px 150px;
-}
-.users-feedback{
-    display: flex;
-    gap: 40px;
-    margin: 0 150px 137px 150px;
-    justify-content: center;
-    
-    
-   
+.users-title {
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+  margin: 137px 150px 50px 150px;
 }
 
-.feedback{
-  max-width: 366.67px;  
+.users-feedback {
+  display: flex;
+  gap: 40px;
+  margin: 0 150px 137px 150px;
+  justify-content: center;
+
+
+
+}
+
+.feedback {
+  max-width: 366.67px;
   height: 243px;
   padding: 24px;
   background-color: #FFFFFF;
@@ -133,3 +148,66 @@ header{
   box-shadow: 5px 5px 10px #00000072;
   gap: 20px;
 }
+
+/* form section */
+.form-box {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+
+}
+
+.side-title {
+  font-size: 97px;
+  font-weight: bold;
+  width: 528px;
+  height: 232px;
+
+
+}
+
+.info-box {
+  width: 497px;
+  height: 490px;
+  margin-right: ;
+}
+
+.input-box {
+  width: 497px;
+  height: 70px;
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 20px 32px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.263);
+  margin: 20px 0px;
+}
+textarea{
+  width: 497px;
+  height: 70px;
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 50px 32px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.263);
+  margin: 20px 0px;
+
+}
+input[type="button"]{
+  background-color: #4E47FF;
+  color: #FFFFFF;
+  border-radius: 10px;
+  padding: 20px 235px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+.field-font {
+  font-size: 18px;
+  font-weight: 400px;
+}
+
