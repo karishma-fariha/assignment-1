@@ -55,3 +55,22 @@ header{
   background-size: cover;
   padding: 5px;
 }
+/* action styles */
+.action{
+  display: flex;
+  margin-top: 120px;
+  justify-content: space-around;
+}
+#action-1{
+    font-size: 42px;
+    font-weight: bold;
+}
+#action-2{
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.471);
+}
+.action div img{
+    border-radius: 48px;
+    
+    
+}
